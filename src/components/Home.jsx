@@ -4,7 +4,7 @@ import { BsFillFastForwardFill } from "react-icons/bs";
 
 export default function Home() {
   return (
-    <div className='h-[60vh] flex flex-row bg-[#FBF8F6] px-[40px]'>
+    <div className='h-full flex flex-col-reverse sm:flex-row bg-[#FBF8F6] p-[40px]'>
       <div className="flex-[1] flex justify-start items-center">
         <div className="">
           <div className="mb-[20px]">
@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="flex-[1]  flex justify-center items-center">
         {/* <LandingFuniture /> */}
-        <img src={LandingFuniture} alt="" className='w-[300px]' />
+        <img src={LandingFuniture} alt="" className='w-[300px] sm:mb-0 mb-[30px]' />
       </div>
     </div>
   )

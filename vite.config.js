@@ -9,4 +9,5 @@ export default defineConfig({
     react(), 
     svgx(),
   ],
+  base: "/Funiture-Haven",
 });
